@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Rose Inventory v25.2.46</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <!-- Firebase V8 (Required by app_v17 logic) -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+  <link rel="stylesheet" href="style_v25.css?v=25.2.46">
+  <link rel="manifest" href="manifest.json?v=25">
+  <meta name="theme-color" content="#141720">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body data-theme="dark">
+
+
+
+  <header class="app-header">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <i class="ph ph-note-pencil" style="color:var(--text-muted); font-size:1.4rem;"></i>
+      <h1 id="view-title">REGISTRO DE INVENTARIO</h1>
+    </div>
+    <div id="cloud-status" class="cloud-status-badge online">
+      <i id="cloud-badge-icon" class="ph ph-cloud-check"></i>
+      <span id="cloud-badge-text">Cloud</span>
+    </div>
+  </header>
+
+  <!-- VIEW: REGISTRO (Active after login) -->
+  <section id="view-registry" class="view with-bg">
+    <div class="bg-overlay"></div>
+    <div class="content-area">
+      
+      <!-- NUEVA BARRA DE ESTADÍSTICAS V25.2.17 -->
+      <div class="stats-overview-bar">
+        <div class="stat-item">
+          <span class="stat-label">TALLOS HOY</span>
+          <span id="reg-daily-tallos" class="stat-value">0</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-label">MALLAS HOY</span>
+          <span id="reg-daily-mallas" class="stat-value">0</span>
+        </div>
+        <button id="btn-open-search-reg" class="btn-search-float">
+          <i class="ph ph-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="surface-card translucent">
+        <div class="card-header-with-fab">
+          <div>
+            <h2 class="section-title">Nueva Entrada</h2>
+            <p class="section-subtitle" style="margin-bottom:0;">Carga de datos de producción diaria</p>
+          </div>
+          <button type="button" id="btn-reg-save-fab" class="btn-save-fab">
+            <i class="ph ph-floppy-disk"></i>
+          </button>
+        </div>
+
+        <form id="form-registry" class="industrial-form">
+          <input type="hidden" id="reg-edit-id">
+          
+          <!-- ORDEN SEGÚN IMAGEN: Sede -> Bloque -> Variedad -> Tallos/Malla -> Mallas -->
+          <div class="form-group">
+            <label>SEDE / POSCOSECHA</label>
+            <select id="reg-sede" required>
+                <option value="" disabled selected>Seleccionar Sede</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>BLOQUE</label>
+            <select id="reg-bloque-select" required>
+              <option value="" disabled selected>Seleccionar Bloque</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>VARIEDAD</label>
+            <select id="reg-variedad" required>
+              <option value="" disabled selected>Seleccionar Variedad</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>TALLOS POR MALLA (ESTÁNDAR)</label>
+            <div class="input-locked">
+              <i class="ph ph-lock"></i>
+              <input type="number" id="reg-tallos-read" value="0" readonly>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>CANTIDAD DE MALLAS</label>
+            <input type="number" id="reg-mallas" placeholder="Ej: 12" required>
+          </div>
+
+          <!-- CUADRO DE RESULTADO CIAN -->
+          <div class="result-total-box">
+            <span class="result-label">TOTAL TALLOS</span>
+            <div id="reg-total-calc" class="result-value">0</div>
+          </div>
+
+          <!-- Botón oculto para procesar el submit del form -->
+          <button type="submit" id="btn-reg-save" style="display:none;"></button>
+        </form>
+      </div>
+
+      <div id="recent-records-card" class="surface-card mt-20 translucent">
+        <h3 class="card-title" style="margin-bottom:15px; font-size:0.9rem; color:var(--accent-cyan);">REGISTROS RECIENTES</h3>
+        <div id="recent-list" class="simple-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIEW: BASE DE DATOS -->
+  <section id="view-master" class="view active">
+    <div class="content-area">
+      <div class="section-header-row">
+          <div>
+            <h2 class="section-title">Base de Datos Maestro</h2>
+            <p class="section-subtitle">Define las zonas, bloques y variedades del invernadero.</p>
+          </div>
+          <button id="btn-master-search" class="btn-secondary" style="width:auto; padding:8px 15px;">
+            <i class="ph ph-magnifying-glass"></i>
+          </button>
+      </div>
+
+      <div class="surface-card master-toggle">
+        <form id="form-master" class="industrial-form">
+          <input type="hidden" id="master-edit-id">
+          
+          <div class="form-group">
+            <label>SEDE / POSCOSECHA</label>
+            <input type="text" id="master-sede" placeholder="Ej: Sede Norte" required>
+          </div>
+
+            <div class="form-group">
+              <label>ZONA</label>
+              <input type="text" id="master-zona" placeholder="Ej: Norte" required>
+            </div>
+            <div class="form-group">
+              <label>BLOQUE</label>
+              <input type="text" id="master-bloque" placeholder="Ej: B12" required>
+            </div>
+
+          <div class="form-group">
+            <label>VARIEDAD</label>
+            <input type="text" id="master-variedad" placeholder="Ej: Rosa Freedom" required>
+          </div>
+
+          <div class="form-group">
+            <label>TALLOS POR MALLA (ESTÁNDAR)</label>
+            <input type="number" id="master-tallos" placeholder="Ej: 25" required>
+          </div>
+
+          <button type="submit" id="btn-master-save" class="btn-primary mt-10">
+            <i class="ph ph-floppy-disk"></i> GUARDAR MAESTRO
+          </button>
+          <button type="button" id="btn-master-toggle-list" class="btn-secondary mt-10" style="width:100%; border-style:dashed; opacity:0.8;">
+            <i class="ph ph-list-bullets"></i> MOSTRAR / OCULTAR VARIEDADES
+          </button>
+        </form>
+      </div>
+ 
+       <div id="master-list" class="item-list mt-20"></div>
+    </div>
+  </section>
+
+  <!-- VIEW: INVENTARIO -->
+  <section id="view-inventory" class="view">
+    <div class="inventory-header">
+       <span class="suptitle">CONTROL DE STOCK</span>
+       <h2 class="inv-title">Existencias Actuales</h2>
+       <div class="inv-tot-container" style="margin-top:10px;">
+          <div id="inv-total-tallos" class="inv-tot-num">0</div>
+          <div style="font-size:0.8rem; color:var(--text-muted);">
+            <span id="inv-total-mallas">0</span> mallas totales
+          </div>
+       </div>
+    </div>
+
+    <div class="content-area">
+      <div class="filter-group-container">
+          <label class="summary-label">AGRUPAR POR:</label>
+          <select id="filter-group" class="industrial-select mt-10">
+            <option value="general">VISTA DETALLADA</option>
+            <option value="zona">ZONA</option>
+            <option value="bloque">BLOQUE</option>
+            <option value="variedad">VARIEDAD</option>
+            <option value="totales">TOTALES ACUMULADOS</option>
+          </select>
+      </div>
+
+  <div class="mt-20">
+          <button id="btn-export-excel" class="btn-secondary">
+            <i class="ph ph-microsoft-excel-logo"></i> EXPORTAR REPORTE
+          </button>
+      </div>
+
+      <div id="inventory-list" class="item-list mt-20"></div>
+    </div>
+  </section>
+
+  <!-- VIEW: AJUSTES -->
+  <section id="view-settings" class="view">
+    <div class="content-area">
+      <h2 class="section-title">Configuración</h2>
+      <p class="section-subtitle">Personalización y sistema</p>
+
+      <div class="surface-card">
+        <div class="form-group">
+          <label>TEMA VISUAL</label>
+          <select id="theme-select" class="industrial-select">
+            <option value="dark">Oscuro Industrial</option>
+            <option value="light">Claro Minimalista</option>
+          </select>
+        </div>
+
+        <div class="form-group mt-15">
+          <label>IDIOMA DE LA APP</label>
+          <select id="lang-select" class="industrial-select">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="surface-card mt-20">
+        <h3 class="summary-label" style="display:block; margin-bottom:10px;">SELECCIONAR SEDE (DESCARGAR DE NUBE)</h3>
+        <div class="form-group">
+          <label>SEDE DISPONIBLE</label>
+          <select id="settings-sede-cloud" class="industrial-select">
+            <option value="">Cargando sedes...</option>
+          </select>
+        </div>
+        <button id="btn-connect-sede" class="btn-primary mt-15" style="width:100%;">
+          <i class="ph ph-cloud-arrow-down"></i> CONECTAR Y DESCARGAR
+        </button>
+      </div>
+
+      <div class="surface-card mt-20">
+        <h3 class="summary-label" style="display:block; margin-bottom:10px;">SISTEMA Y NUBE</h3>
+        <div class="version-info-grid" style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; font-size:0.85rem;">
+           <div class="info-item">
+             <span class="meta-label">VERSIÓN:</span>
+             <span class="meta-val" id="display-version">v25.2.40</span>
+           </div>
+           <div class="info-item">
+             <span class="meta-label">ESTADO:</span>
+             <span class="meta-val" id="display-build" style="font-size:0.75rem;">Conectado</span>
+           </div>
+        </div>
+        
+        <div class="mt-15" style="display:flex; flex-direction:column; gap:10px;">
+          <button id="btn-upload-cloud" class="btn-primary w-100" style="background:#f59e0b; border-color:#f59e0b;">
+            <i class="ph ph-cloud-arrow-up"></i> SUBIR MIS DATOS A LA NUBE
+          </button>
+          <p style="font-size:0.75rem; color:var(--text-secondary); margin:0; line-height:1.2;">
+            <b>Solo Administrador:</b> Si la nube está vacía, usa este botón para subir tus Variedades locales.
+          </p>
+        </div>
+
+        <button id="btn-check-version" class="btn-secondary mt-15" style="width:100%;">
+          <i class="ph ph-magnifying-glass"></i> BUSCAR ACTUALIZACIÓN
+        </button>
+      </div>
+
+      <div class="surface-card mt-20">
+        <button id="btn-force-update" class="btn-primary" style="width:100%; background:var(--accent-red); margin-bottom:15px;">
+          <i class="ph ph-arrows-clockwise"></i> FORMATO / FORZAR ACTUALIZACIÓN
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <nav id="bottom-nav" class="bottom-nav">
+    <button class="nav-item active" data-target="view-master">
+      <i class="ph-fill ph-database"></i>
+      <span>Base de Datos</span>
+    </button>
+    <button class="nav-item" data-target="view-registry">
+      <i class="ph-fill ph-note-pencil"></i>
+      <span>Registro</span>
+    </button>
+    <button class="nav-item" data-target="view-inventory">
+      <i class="ph-fill ph-clipboard-text"></i>
+      <span>Inventario</span>
+    </button>
+    <button class="nav-item" data-target="view-settings">
+      <i class="ph-fill ph-gear"></i>
+      <span>Ajustes</span>
+    </button>
+  </nav>
+
+  <!-- MODALS -->
+  <div id="passwordModal" class="modal-overlay">
+    <div class="modal-content surface-card Industrial-card">
+      <h3 style="margin-bottom:15px; text-align:center;">Acceso Restringido</h3>
+      <input type="password" id="master-pass-input" class="industrial-select" placeholder="Contraseña">
+      <p id="pass-error" style="color:var(--danger); font-size:0.75rem; text-align:center; margin-top:5px; display:none;">Incorrecto</p>
+      <div class="grid-2-cols mt-15">
+        <button id="pass-confirm" class="btn-primary" style="margin-top:0;">ENTRAR</button>
+        <button id="pass-cancel" class="btn-secondary">CANCELAR</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="masterSearchModal" class="modal-overlay">
+    <div class="modal-content surface-card" style="max-width:400px; height:80vh;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+        <h3 id="master-search-title">Buscar Variedad</h3>
+        <button id="close-master-search" class="btn-secondary" style="width:auto; padding:5px;"><i class="ph ph-x"></i></button>
+      </div>
+      <input type="text" id="input-master-search" class="industrial-select" placeholder="Escribe variedad o bloque...">
+      <div id="master-search-results" class="item-list mt-15" style="overflow-y:auto; flex:1;"></div>
+    </div>
+  </div>
+
+
+
+  <div id="toast" class="toast"></div>
+
+  <script src="app_v25.js?v=25.2.44"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "AlexG",
+  "short_name": "AlexG",
+  "description": "App para registro de inventario de rosas",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#141720",
+  "theme_color": "#0dcce6",
+  "icons": [
+    {
+      "src": "icon-rose-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-rose.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

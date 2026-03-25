@@ -1,0 +1,64 @@
+/* Estilos adicionales para Buscador v21 */
+.search-modal {
+    background: var(--bg-card);
+    border: 1px solid var(--accent-cyan);
+    border-radius: 16px;
+    padding: 20px;
+    max-height: 85vh;
+}
+.search-input-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+.search-input-wrapper i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+.search-input-wrapper input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    color: var(--text-main);
+    outline: none;
+}
+.search-results-list {
+    max-height: 50vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.clickable {
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.clickable:hover {
+    background: rgba(0, 243, 255, 0.05);
+}
+.item-subtitle {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+.btn-icon-danger {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 4px;
+}
+.btn-icon-danger:hover {
+    color: var(--danger);
+}
+.btn-text-danger {
+    color: var(--danger);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+}

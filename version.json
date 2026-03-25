@@ -1,0 +1,5 @@
+{
+  "version": "25.2.46",
+  "buildDate": "2026-03-25T12:55:00Z",
+  "notes": "Performance optimization: Non-blocking import process. UI updates instantly while cloud sync runs in background."
+}

@@ -1,0 +1,1592 @@
+{
+  "master": [
+    {
+      "id": "_ljci70zct",
+      "zona": "3",
+      "bloque": "1",
+      "variedad": "MOONSTONE",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_dai6ibe9r",
+      "zona": "3",
+      "bloque": "2",
+      "variedad": "PINK OHRA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_ln09e8txo",
+      "zona": "3",
+      "bloque": "4",
+      "variedad": "FRUTTETO",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_fpjqifbx5",
+      "zona": "3",
+      "bloque": "5",
+      "variedad": "PINK FLOY",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_njbbcrp58",
+      "zona": "3",
+      "bloque": "5",
+      "variedad": "SWEET 4 LOVE",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_xcdcirrog",
+      "zona": "3",
+      "bloque": "6",
+      "variedad": "EXPLOERE",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_bp80rbkhu",
+      "zona": "3",
+      "bloque": "6",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_pj9xvpliv",
+      "zona": "3",
+      "bloque": "7",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_9go3u98ct",
+      "zona": "3",
+      "bloque": "9",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_eywuobn2j",
+      "zona": "3",
+      "bloque": "8",
+      "variedad": "VENDELA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_pf0y21wxd",
+      "zona": "3",
+      "bloque": "8",
+      "variedad": "RHOSLYN",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_bxpapgsut",
+      "zona": "3",
+      "bloque": "8",
+      "variedad": "TIFFANY",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_hnfsarnao",
+      "zona": "3",
+      "bloque": "10",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_qb8fk2u3k",
+      "zona": "3",
+      "bloque": "10",
+      "variedad": "QUEEN CRONW",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_xze0wrjvi",
+      "zona": "3",
+      "bloque": "11",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_4gbnbhkbz",
+      "zona": "3",
+      "bloque": "12",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_dzh9czl71",
+      "zona": "3",
+      "bloque": "13",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_equtxqb0g",
+      "zona": "3",
+      "bloque": "15",
+      "variedad": "KAHALA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_vjozxypf2",
+      "zona": "3",
+      "bloque": "16",
+      "variedad": "PINK X-PRESSION",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_5j4ffdc9w",
+      "zona": "3",
+      "bloque": "17",
+      "variedad": "MONDIAL",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_i21is2vcg",
+      "zona": "3",
+      "bloque": "18",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_gzgx0agte",
+      "zona": "3",
+      "bloque": "14",
+      "variedad": "MONDIAL",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_9l72ikcte",
+      "zona": "3",
+      "bloque": "19",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_io9aewo43",
+      "zona": "3",
+      "bloque": "19",
+      "variedad": "SYMBOL",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_r7h0f8n3d",
+      "zona": "3",
+      "bloque": "20",
+      "variedad": "FRUTTETO",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_4o1iurg3v",
+      "zona": "3",
+      "bloque": "20",
+      "variedad": "OCEAN SONG",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_yaqdxfoq9",
+      "zona": "3",
+      "bloque": "20",
+      "variedad": "TIFFANY",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_1v2vj815q",
+      "zona": "3",
+      "bloque": "21",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_djfqhxgw4",
+      "zona": "3",
+      "bloque": "21",
+      "variedad": "ORANGE CRUSH",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_t7amlzx7l",
+      "zona": "3",
+      "bloque": "22",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_8kgvigjvm",
+      "zona": "3",
+      "bloque": "22",
+      "variedad": "WHITE DOVE",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_4vkbe1wcb",
+      "zona": "3",
+      "bloque": "23",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_5alr9fcou",
+      "zona": "3",
+      "bloque": "23",
+      "variedad": "TIBET",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_i8lph36z2",
+      "zona": "3",
+      "bloque": "24",
+      "variedad": "QUEEN CRONW",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_njx68rkpi",
+      "zona": "3",
+      "bloque": "24",
+      "variedad": "TROPIC CRUSH",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_feag1o8vq",
+      "zona": "3",
+      "bloque": "24",
+      "variedad": "VENDELA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_emixwxlr1",
+      "zona": "3",
+      "bloque": "25",
+      "variedad": "EXPLORER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_68r6h96ep",
+      "zona": "3",
+      "bloque": "25",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_l56gcrhtw",
+      "zona": "3",
+      "bloque": "26",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_rqdu1anis",
+      "zona": "3",
+      "bloque": "26",
+      "variedad": "HOT LADY",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_kiahe9agp",
+      "zona": "3",
+      "bloque": "26",
+      "variedad": "PINK FLOYD",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_gadgziexs",
+      "zona": "3",
+      "bloque": "27",
+      "variedad": "BUMBLEBEE",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_olzx1oc1s",
+      "zona": "3",
+      "bloque": "29",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_o5qcfp2yn",
+      "zona": "2",
+      "bloque": "31",
+      "variedad": "DEEP PURPLE",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_ozptre01j",
+      "zona": "2",
+      "bloque": "32",
+      "variedad": "WHITE DOVE",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_7ngnw48pk",
+      "zona": "2",
+      "bloque": "32",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_gd3nakcge",
+      "zona": "2",
+      "bloque": "33",
+      "variedad": "CORAL REFF",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_zgqrwg1r3",
+      "zona": "2",
+      "bloque": "33",
+      "variedad": "SUPER SUN",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_6zr1ntz13",
+      "zona": "2",
+      "bloque": "34",
+      "variedad": "EXPLORER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_tedb9zpom",
+      "zona": "3",
+      "bloque": "35",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_urpmml30r",
+      "zona": "2",
+      "bloque": "36",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_v0a7qrbbg",
+      "zona": "2",
+      "bloque": "37",
+      "variedad": "KAHALA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_ee5lvquk6",
+      "zona": "2",
+      "bloque": "37",
+      "variedad": "MOTHER OF PEARL",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_0k2z4uysh",
+      "zona": "2",
+      "bloque": "37",
+      "variedad": "SYMBOL",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_fi9r76pik",
+      "zona": "2",
+      "bloque": "38",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_j8gwb1g1v",
+      "zona": "2",
+      "bloque": "39",
+      "variedad": "MOODY BLUES",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_8y4awpg5k",
+      "zona": "2",
+      "bloque": "39",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_ron5wdgsq",
+      "zona": "2",
+      "bloque": "39",
+      "variedad": "TIBET",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_5011pncjy",
+      "zona": "2",
+      "bloque": "40",
+      "variedad": "CORAL REFF",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_6ih1nsn6y",
+      "zona": "2",
+      "bloque": "40",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_48az14ywd",
+      "zona": "2",
+      "bloque": "40",
+      "variedad": "PALOMA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_z7ntrssj7",
+      "zona": "2",
+      "bloque": "40",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_cac4s0rxf",
+      "zona": "2",
+      "bloque": "41",
+      "variedad": "HOT LADY",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_egnqj21lm",
+      "zona": "2",
+      "bloque": "41",
+      "variedad": "NEWFLASH",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_mn92eze8y",
+      "zona": "2",
+      "bloque": "41",
+      "variedad": "QUEENS CROWN",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_jcfak5yvx",
+      "zona": "2",
+      "bloque": "41",
+      "variedad": "RHOSLYN",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_dtkhn5uet",
+      "zona": "2",
+      "bloque": "42",
+      "variedad": "MOODY BLUES",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_cdmpakfg4",
+      "zona": "2",
+      "bloque": "43",
+      "variedad": "SUPER SUN",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_2fgem53zk",
+      "zona": "2",
+      "bloque": "43",
+      "variedad": "TIBET",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_0fli52x3t",
+      "zona": "2",
+      "bloque": "44",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_kjrtme27j",
+      "zona": "2",
+      "bloque": "45",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_l39z2v42g",
+      "zona": "2",
+      "bloque": "45",
+      "variedad": "TIBET",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_3w9r2xzr8",
+      "zona": "2",
+      "bloque": "46",
+      "variedad": "MONDIAL",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_miet1dgxv",
+      "zona": "2",
+      "bloque": "46",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_oey9487bj",
+      "zona": "2",
+      "bloque": "47",
+      "variedad": "EXPLORER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_2g6mbm733",
+      "zona": "2",
+      "bloque": "48",
+      "variedad": "ROSITA VENDELA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_78iw5jugv",
+      "zona": "2",
+      "bloque": "48",
+      "variedad": "SWEET ESCIMO",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_18zi5xnya",
+      "zona": "2",
+      "bloque": "48",
+      "variedad": "TIBET",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_rlwwqheg1",
+      "zona": "2",
+      "bloque": "48",
+      "variedad": "VENDELA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_ohvrp4nd8",
+      "zona": "2",
+      "bloque": "49",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_3vx0lylea",
+      "zona": "2",
+      "bloque": "49",
+      "variedad": "QUICKSAND",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_4oo140xaq",
+      "zona": "2",
+      "bloque": "49",
+      "variedad": "VENDELA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_463r8qztt",
+      "zona": "2",
+      "bloque": "50",
+      "variedad": "MANDALA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_e44qtyczq",
+      "zona": "2",
+      "bloque": "50",
+      "variedad": "COUNTRY BLUES",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_wx4k5skij",
+      "zona": "2",
+      "bloque": "50",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_r4ge9ciff",
+      "zona": "2",
+      "bloque": "50",
+      "variedad": "OCEAN SONG",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_0ceueyngy",
+      "zona": "2",
+      "bloque": "50",
+      "variedad": "PALOMA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_4qi0nesyw",
+      "zona": "2",
+      "bloque": "51",
+      "variedad": "BUMBLEBEE",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_861ojrhku",
+      "zona": "2",
+      "bloque": "54",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_fdjeo4ieo",
+      "zona": "2",
+      "bloque": "51",
+      "variedad": "PALOMA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_1546v40ez",
+      "zona": "2",
+      "bloque": "51",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_vcjnscgbq",
+      "zona": "2",
+      "bloque": "52",
+      "variedad": "LOLA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_mkrzwiber",
+      "zona": "5",
+      "bloque": "52",
+      "variedad": "PINK OHRA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_y4taszpm1",
+      "zona": "2",
+      "bloque": "52",
+      "variedad": "TIBET",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_4hx7908xw",
+      "zona": "2",
+      "bloque": "53",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_7xkgtc4jz",
+      "zona": "1",
+      "bloque": "54",
+      "variedad": "KAHALA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_i2i36t8dl",
+      "zona": "1",
+      "bloque": "54",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_oktkadazk",
+      "zona": "2",
+      "bloque": "54",
+      "variedad": "WHITE OHARA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_hfxoqk3sw",
+      "zona": "1",
+      "bloque": "55",
+      "variedad": "ALBA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_79u8gifev",
+      "zona": "1",
+      "bloque": "55",
+      "variedad": "ORANGE CRUSH",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_2ypqv4ul0",
+      "zona": "1",
+      "bloque": "55",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_vwwds2ame",
+      "zona": "1",
+      "bloque": "55",
+      "variedad": "QUICKSAND",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_p45r01a77",
+      "zona": "1",
+      "bloque": "56",
+      "variedad": "CHRISTA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_8olkkjrw7",
+      "zona": "1",
+      "bloque": "56",
+      "variedad": "NEWFLASH",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_6nusa4ov8",
+      "zona": "1",
+      "bloque": "57",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_2xiire3k6",
+      "zona": "1",
+      "bloque": "58",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_a7m08ivnx",
+      "zona": "1",
+      "bloque": "59",
+      "variedad": "COUNTRY BLUES",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_czlblgxw3",
+      "zona": "1",
+      "bloque": "59",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_8dlav3jyb",
+      "zona": "1",
+      "bloque": "59",
+      "variedad": "QUEEN CRONW",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_c50sp85nv",
+      "zona": "1",
+      "bloque": "59",
+      "variedad": "QUICKSAND",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_mp321qvvu",
+      "zona": "1",
+      "bloque": "60",
+      "variedad": "MANDALA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_bp9udpkrq",
+      "zona": "1",
+      "bloque": "61",
+      "variedad": "EXPLORER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_iv8vw2v25",
+      "zona": "1",
+      "bloque": "61",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_xkvjpajht",
+      "zona": "1",
+      "bloque": "61",
+      "variedad": "QUICKSAND",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_wmwyo10lx",
+      "zona": "2",
+      "bloque": "39",
+      "variedad": "PALOMA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_qd2j92avs",
+      "zona": "4",
+      "bloque": "62",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_hb12va3sj",
+      "zona": "1",
+      "bloque": "63",
+      "variedad": "CANDLELIGHT",
+      "tallosMalla": 15,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_yocahp488",
+      "zona": "1",
+      "bloque": "63",
+      "variedad": "FULL MONTY",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_rgsiwhgu0",
+      "zona": "1",
+      "bloque": "64",
+      "variedad": "MOONSTONES",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_sxys9r4lm",
+      "zona": "1",
+      "bloque": "65",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_cr6o1hssf",
+      "zona": "1",
+      "bloque": "66",
+      "variedad": "MOONSTONES",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_12ji15qdt",
+      "zona": "1",
+      "bloque": "66",
+      "variedad": "SWEET AKITO",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_vy1o0tz6u",
+      "zona": "1",
+      "bloque": "67",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_8xmuc10c8",
+      "zona": "1",
+      "bloque": "68",
+      "variedad": "ORANGE CRUSH",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_20dq62p3t",
+      "zona": "1",
+      "bloque": "68",
+      "variedad": "WHITE DOVE",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_nl6gvkao3",
+      "zona": "1",
+      "bloque": "69",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_zajpupntp",
+      "zona": "1",
+      "bloque": "71",
+      "variedad": "HOT LADY",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_tilcbk4bi",
+      "zona": "1",
+      "bloque": "71",
+      "variedad": "LOLA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_zevy61su7",
+      "zona": "1",
+      "bloque": "71",
+      "variedad": "PINK X-PRESSION",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_scpegvzmo",
+      "zona": "1",
+      "bloque": "72",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_t33cci7ad",
+      "zona": "1",
+      "bloque": "72",
+      "variedad": "SUMMER ROMANCE",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_a4k6xqi2t",
+      "zona": "1",
+      "bloque": "73",
+      "variedad": "PINK OHARA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_76zz4n0f2",
+      "zona": "1",
+      "bloque": "73",
+      "variedad": "SWEET CAKE",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_1nnsup9n8",
+      "zona": "1",
+      "bloque": "74",
+      "variedad": "DALLAS",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_hgfmisph9",
+      "zona": "1",
+      "bloque": "75",
+      "variedad": "EXPLORER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_4gjpjec8b",
+      "zona": "1",
+      "bloque": "75",
+      "variedad": "MONDIAL",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_0smfynbpd",
+      "zona": "1",
+      "bloque": "75",
+      "variedad": "POLO",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_im74xuvo2",
+      "zona": "1",
+      "bloque": "76",
+      "variedad": "MAMMA MIA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_20bnmdrkm",
+      "zona": "1",
+      "bloque": "77",
+      "variedad": "MAMMA MIA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_wu2ppcqap",
+      "zona": "1",
+      "bloque": "78",
+      "variedad": "BRIGHTON",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_2z8wrwbgx",
+      "zona": "1",
+      "bloque": "78",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_i8ksgdwil",
+      "zona": "1",
+      "bloque": "78",
+      "variedad": "LEMONADE",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_jn1pvwh01",
+      "zona": "1",
+      "bloque": "78",
+      "variedad": "MANDALA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_t9hhut4kf",
+      "zona": "1",
+      "bloque": "78",
+      "variedad": "SHIMMER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_loruqj6z8",
+      "zona": "1",
+      "bloque": "79",
+      "variedad": "HEARTS",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_x1a9fqnmz",
+      "zona": "1",
+      "bloque": "79",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_cvu7ey5tc",
+      "zona": "1",
+      "bloque": "79",
+      "variedad": "SHIMMER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_3mqsp0k67",
+      "zona": "3",
+      "bloque": "80",
+      "variedad": "EXPLORER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_wxw3foq8o",
+      "zona": "1",
+      "bloque": "80",
+      "variedad": "COTTON X-PRESSION",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_iff3gfy7y",
+      "zona": "1",
+      "bloque": "81",
+      "variedad": "EXPLORER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_ltu0h7nht",
+      "zona": "1",
+      "bloque": "81",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_su49id8ez",
+      "zona": "1",
+      "bloque": "81",
+      "variedad": "MONDIAL",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_o7s706ke3",
+      "zona": "1",
+      "bloque": "81",
+      "variedad": "NINA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_22z9a4114",
+      "zona": "1",
+      "bloque": "82",
+      "variedad": "BRIGTHON",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_jtuzk44sg",
+      "zona": "1",
+      "bloque": "82",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_cwj51rpwp",
+      "zona": "1",
+      "bloque": "82",
+      "variedad": "EXPLORER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_3os0bz7gm",
+      "zona": "1",
+      "bloque": "82",
+      "variedad": "NINA",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_huzawvvn1",
+      "zona": "1",
+      "bloque": "82",
+      "variedad": "PLAYA BLANCA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_53z3kl1fx",
+      "zona": "1",
+      "bloque": "83",
+      "variedad": "BUMBLEBEE",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_uxdt4l24o",
+      "zona": "1",
+      "bloque": "83",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_4kmsq9id4",
+      "zona": "1",
+      "bloque": "83",
+      "variedad": "MONDIAL",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_i9vw3nmbx",
+      "zona": "1",
+      "bloque": "85",
+      "variedad": "FREEDOM",
+      "tallosMalla": 25,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_pacxu4seu",
+      "zona": "1",
+      "bloque": "84",
+      "variedad": "SHIMMER",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_kvaoq0h5d",
+      "zona": "1",
+      "bloque": "58",
+      "variedad": "WHITE OHARA",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_oobpd04dp",
+      "zona": "2",
+      "bloque": "30",
+      "variedad": "PINK MONDIAL",
+      "tallosMalla": 20,
+      "sede": "ROYAL NORTE"
+    }
+  ],
+  "entries": [
+    {
+      "id": "_s20ewri8w",
+      "masterId": "_wmwyo10lx",
+      "mallas": 2,
+      "totalTallos": 40,
+      "date": "2026-03-19T18:34:05.596Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_xkh0sbipp",
+      "masterId": "_egnqj21lm",
+      "mallas": 2,
+      "totalTallos": 50,
+      "date": "2026-03-19T18:34:22.534Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_tzge3oavp",
+      "masterId": "_a7m08ivnx",
+      "mallas": 2,
+      "totalTallos": 40,
+      "date": "2026-03-19T18:35:03.453Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_cduif6gyx",
+      "masterId": "_ltu0h7nht",
+      "mallas": 6,
+      "totalTallos": 150,
+      "date": "2026-03-19T18:35:45.875Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_kz0e0872v",
+      "masterId": "_tilcbk4bi",
+      "mallas": 1,
+      "totalTallos": 20,
+      "date": "2026-03-19T18:36:15.586Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_3pkpfj9k4",
+      "masterId": "_vcjnscgbq",
+      "mallas": 2,
+      "totalTallos": 40,
+      "date": "2026-03-19T18:45:10.895Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_1virc3wl6",
+      "masterId": "_kvaoq0h5d",
+      "mallas": 1,
+      "totalTallos": 20,
+      "date": "2026-03-19T18:45:28.368Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_urzq9qgke",
+      "masterId": "_a4k6xqi2t",
+      "mallas": 18,
+      "totalTallos": 360,
+      "date": "2026-03-20T18:16:03.102Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_3csp8l23u",
+      "masterId": "_t33cci7ad",
+      "mallas": 16,
+      "totalTallos": 400,
+      "date": "2026-03-20T18:16:23.243Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_1q824o4qm",
+      "masterId": "_im74xuvo2",
+      "mallas": 37,
+      "totalTallos": 925,
+      "date": "2026-03-20T18:16:41.382Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_bnnzdlava",
+      "masterId": "_nl6gvkao3",
+      "mallas": 45,
+      "totalTallos": 1125,
+      "date": "2026-03-20T18:17:57.289Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_r0cwzi866",
+      "masterId": "_zevy61su7",
+      "mallas": 108,
+      "totalTallos": 2160,
+      "date": "2026-03-20T18:18:34.246Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_om0fcuq9p",
+      "masterId": "_xkvjpajht",
+      "mallas": 9,
+      "totalTallos": 225,
+      "date": "2026-03-20T18:18:58.477Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_wbe5sr8de",
+      "masterId": "_cwj51rpwp",
+      "mallas": 9,
+      "totalTallos": 180,
+      "date": "2026-03-20T18:19:34.578Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_6u8x54h8p",
+      "masterId": "_c50sp85nv",
+      "mallas": 1,
+      "totalTallos": 25,
+      "date": "2026-03-20T18:19:49.674Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_k7nj9ydx1",
+      "masterId": "_njbbcrp58",
+      "mallas": 14,
+      "totalTallos": 280,
+      "date": "2026-03-20T18:20:08.327Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_0s1tvfft0",
+      "masterId": "_76zz4n0f2",
+      "mallas": 7,
+      "totalTallos": 175,
+      "date": "2026-03-20T18:20:25.823Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_348rjm9ph",
+      "masterId": "_hgfmisph9",
+      "mallas": 10,
+      "totalTallos": 200,
+      "date": "2026-03-20T18:20:39.846Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_u1bwyu5y1",
+      "masterId": "_dai6ibe9r",
+      "mallas": 6,
+      "totalTallos": 120,
+      "date": "2026-03-20T18:21:05.119Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_9ye6kxq7e",
+      "masterId": "_463r8qztt",
+      "mallas": 5,
+      "totalTallos": 100,
+      "date": "2026-03-20T18:21:19.040Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_snhs3u3hq",
+      "masterId": "_jn1pvwh01",
+      "mallas": 14,
+      "totalTallos": 280,
+      "date": "2026-03-20T18:22:02.143Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_pnxpes77s",
+      "masterId": "_8dlav3jyb",
+      "mallas": 24,
+      "totalTallos": 480,
+      "date": "2026-03-20T18:22:15.926Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_r9v6e0i3f",
+      "masterId": "_a7m08ivnx",
+      "mallas": 7,
+      "totalTallos": 140,
+      "date": "2026-03-20T18:22:43.794Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_yw1dmcel3",
+      "masterId": "_7xkgtc4jz",
+      "mallas": 10,
+      "totalTallos": 200,
+      "date": "2026-03-20T18:23:16.341Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_sjo196w2o",
+      "masterId": "_8olkkjrw7",
+      "mallas": 5,
+      "totalTallos": 125,
+      "date": "2026-03-20T18:23:34.891Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_ejqwls76o",
+      "masterId": "_vjozxypf2",
+      "mallas": 7,
+      "totalTallos": 140,
+      "date": "2026-03-20T18:23:58.757Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_zly2j7ccv",
+      "masterId": "_v0a7qrbbg",
+      "mallas": 11,
+      "totalTallos": 220,
+      "date": "2026-03-20T18:24:14.453Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_7m48ylpk6",
+      "masterId": "_ee5lvquk6",
+      "mallas": 3,
+      "totalTallos": 60,
+      "date": "2026-03-20T18:24:28.434Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_98zec45rt",
+      "masterId": "_cdmpakfg4",
+      "mallas": 3,
+      "totalTallos": 75,
+      "date": "2026-03-20T18:24:54.030Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_rr2m48xya",
+      "masterId": "_mn92eze8y",
+      "mallas": 2,
+      "totalTallos": 40,
+      "date": "2026-03-20T18:25:01.691Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_0y0vmrd6p",
+      "masterId": "_miet1dgxv",
+      "mallas": 1,
+      "totalTallos": 20,
+      "date": "2026-03-20T18:25:12.843Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_y8edbhgqj",
+      "masterId": "_0k2z4uysh",
+      "mallas": 3,
+      "totalTallos": 75,
+      "date": "2026-03-20T18:25:20.982Z",
+      "sede": "ROYAL NORTE"
+    },
+    {
+      "id": "_2mbrxc2np",
+      "masterId": "_5011pncjy",
+      "mallas": 2,
+      "totalTallos": 40,
+      "date": "2026-03-20T18:25:31.838Z",
+      "sede": "ROYAL NORTE"
+    }
+  ],
+  "version": "1.0",
+  "exportDate": "2026-03-21T01:37:34.885Z"
+}
